@@ -1,0 +1,55 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 1rem;
+  height: calc(90% - 6rem);
+  width: calc(90% - 6rem);
+  box-shadow: 0px 4px 20px rgb(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.button {
+  position: absolute;
+  padding: 0.2rem;
+  margin: 0.8rem;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.4;
+}
+
+.button:active {
+  opacity: 0.2;
+}
+
+.content {
+  overflow: scroll;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 4.5rem;
+  margin-top: 1rem;
+  border-bottom: 1px solid #cfcfcf;
+}

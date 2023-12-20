@@ -1,0 +1,18 @@
+.select {
+  border: none;
+  outline: none;
+}
+
+.selectContainer {
+  background-color: white;
+  display: inline-block;
+  padding: 0.5rem 0.7rem;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0.5rem;
+  border-color: #cfcfcf;
+  font-size: 1rem;
+  font-weight: normal;
+  transition: 0.12s;
+  flex: 1;
+}

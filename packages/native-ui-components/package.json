@@ -1,0 +1,26 @@
+{
+  "name": "@yori/native-ui-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rimraf ./dist",
+    "compile": "tsc -p tsconfig.build.json",
+    "prepublishOnly": "npm run build",
+    "watch": "tsc -w -p tsconfig.build.json"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-native": "^0.63.0",
+    "@yori/styles": "^1.0.0",
+    "@expo/vector-icons": "^13.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-native": "^0.63.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

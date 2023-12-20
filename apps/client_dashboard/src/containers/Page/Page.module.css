@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  position: relative;
+  overflow: scroll;
+}
+
+.navBarContainer {
+  background-color: #f9f9f9;
+  border-right: 1px solid #cfcfcf;
+  min-width: 12rem;
+}
+
+.headerContainer {
+  border-bottom: 1px solid #cfcfcf;
+}

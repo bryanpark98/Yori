@@ -1,0 +1,27 @@
+.table {
+  border-collapse: collapse;
+  background-color: inherit;
+}
+
+.tbody {
+  background-color: inherit;
+}
+
+.row {
+  border: solid #cfcfcf;
+  border-width: 1px 0;
+  background-color: inherit;
+}
+
+.clickableRow {
+  cursor: pointer;
+  transition: 0s;
+}
+
+.clickableRow:hover {
+  opacity: 0.5;
+}
+
+.clickableRow:active {
+  opacity: 0.2;
+}

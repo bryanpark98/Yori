@@ -1,0 +1,21 @@
+.button {
+  padding: 1rem 1.4rem;
+  background-color: #fceaff;
+  border-color: #8300b0;
+  border-width: 1px;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: normal;
+  cursor: pointer;
+  transition: 0.12s;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #8300b0;
+  color: white;
+}
+
+.button:active {
+  opacity: 0.5;
+}

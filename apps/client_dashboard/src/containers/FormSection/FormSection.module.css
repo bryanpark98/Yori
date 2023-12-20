@@ -1,0 +1,10 @@
+.container {
+  border: 1px solid #d2cdcd;
+  border-radius: 0.5rem;
+  background-color: #fbfbfb;
+  padding: 1rem 1rem;
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}

@@ -1,0 +1,27 @@
+.imageContainer {
+  background-color: white;
+  border-radius: 0.5rem;
+  height: 6rem;
+  width: 6rem;
+  border: 1px solid #cfcfcf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.05s;
+}
+
+.imageContainer:hover {
+  opacity: 0.5;
+}
+
+.imageContainer:active {
+  opacity: 0.2;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.label {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #000000;
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.input {
+  padding: 1rem 1.4rem;
+  background-color: #ececec;
+  border-width: 0;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: normal;
+  transition: 0.12s;
+  flex: 1;
+}
+
+.input:focus {
+  opacity: 0.8;
+}
+
+.input::placeholder {
+  font-size: 1rem;
+  justify-content: center;
+  font-weight: normal;
+}
